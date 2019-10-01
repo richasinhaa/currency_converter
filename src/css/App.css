@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+}
+
+.background {
+background-image: url("/background.jpg");
+}
+
+body {
+    background-color: aliceblue;
+    background-image: url("/background.jpg");
+}
+
+.App-logo {
+  height: 10vmin;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.form-horizontal {
+  width: 48%;
+}
+
+
+.App-link {
+  color: #09d3ac;
+}
